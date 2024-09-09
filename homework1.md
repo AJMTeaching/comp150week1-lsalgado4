@@ -48,6 +48,12 @@ def test_merge_lists():
 
 **Restrictions**: Do not use list comprehensions or the `map()` function.
 
+def worth_lengths(words) :
+    lengths = []
+    for word in words:
+        lengths.append(len(word))
+return lengths
+
 **Unit Tests**:
 ```python
 def test_word_lengths():
@@ -65,6 +71,7 @@ def test_word_lengths():
 **Description**: Write a function that takes a string and returns it reversed. Implement the reversal using a loop or recursion.
 
 **Restrictions**: Do not use the `reversed()` function.
+
 
 **Unit Tests**:
 ```python
