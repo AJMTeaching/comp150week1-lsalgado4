@@ -60,17 +60,17 @@ def test(did_pass):
 
 
 # Unit Tests for count_vowels
-def test_count_vowels(s):
-    test(count_vowels): ("hello") == 2)
-    test(count_vowels): ("why") == 0)
-    test(count_vowels): ("aeiou") == 5)
-    test(count_vowels): ("") == 0)
-    test(count_vowels): ("bcdfg") == 0)
-    test(count_vowels): ("aeiouAEIOU") == 10)
-    test(count_vowels): ("HELLO") == 2)
-    test(count_vowels): ("aEiOu") == 5)
-    test(count_vowels): ("a e i o u") == 5)
-    test(count_vowels): ("rhythm") == 0)
+def test_count_vowels():
+    test(count_vowels("hello") == 2)
+    test(count_vowels("why") == 0)
+    test(count_vowels("aeiou") == 5)
+    test(count_vowels("") == 0)
+    test(count_vowels("bcdfg") == 0)
+    test(count_vowels("aeiouAEIOU") == 10)
+    test(count_vowels("HELLO") == 2)
+    test(count_vowels("aEiOu") == 5)
+    test(count_vowels("a e i o u") == 5)
+    test(count_vowels("rhythm") == 0)
 
 
 # Function 2: merge_lists
