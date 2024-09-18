@@ -141,11 +141,10 @@ def test_word_lengths():
 # Function 4: reverse_string
 def reverse_string(s: str) -> str:
     """
-def reverse_string(s) :
-    if len(s) == 0:
-        return s
-    else:
-        return reverse_string(s[1:]) + s[0]
+    reversed_str = ""
+    for char in s:
+        reversed_str = char + reversed_str
+    retrun reversed_str
     """
     pass
 
@@ -166,11 +165,10 @@ def test_reverse_string():
 # Function 5: intersection
 def intersection(list1: list, list2: list) -> list:
     """
-def intersection(list 1, list2) :
     result = []
-    for item 1 in list 1:
-        if item1 in list2 and item1 not in result 
-            result.append(item1)
+    for item in list1:
+        if item in list2 and item not in result
+            result.append(item)
     return result
     """
     # TODO: Implement this function
