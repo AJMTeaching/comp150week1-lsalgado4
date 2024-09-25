@@ -54,8 +54,8 @@ def test(did_pass):
         vowels = 'aeiouAEIOU'
         count = 0
         for char in s :
-            if char in vowels :
-             count += 1
+            if char in vowels:
+                count += 1
         return count
 
 
@@ -75,8 +75,7 @@ def test_count_vowels():
 
 # Function 2: merge_lists
 def merge_lists(list1: list, list2: list) -> list:
-    """
-    def merge_lists(list1, list2):
+   def merge_lists(list1, list2):
     merged = []
     i, j = 0, 0
     
@@ -118,8 +117,7 @@ def test_merge_lists():
 
 # Function 3: word_lengths
 def word_lengths(words: list) -> list:
-    """
-def worth_lengths(words) :
+   def worth_lengths(words) :
     lengths = []
     for word in words:
         lengths.append(len(word))
@@ -140,12 +138,12 @@ def test_word_lengths():
 
 # Function 4: reverse_string
 def reverse_string(s: str) -> str:
-    """
+
     reversed_str = ""
     for char in s:
         reversed_str = char + reversed_str
-    retrun reversed_str
-    """
+    return reversed_str
+    
     pass
 
 
@@ -164,13 +162,12 @@ def test_reverse_string():
 
 # Function 5: intersection
 def intersection(list1: list, list2: list) -> list:
-    """
     result = []
     for item in list1:
-        if item in list2 and item not in result
+        if item in list2 and item not in result:
             result.append(item)
     return result
-    """
+    
     # TODO: Implement this function
     pass
 
